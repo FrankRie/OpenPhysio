@@ -39,7 +39,7 @@ BrowseReceipes::BrowseReceipes(int mode, QWidget *parent)
         // 2. Ändert NUR die Elemente (:item), die aktiv ausgewählt (:selected) sind
         "QTableView::item:selected {"
         "   background-color: #0078d7 !important;" // !important zwingt Windows zur Übernahme
-        "   color: #ffffff !important;"
+        "   color: #ffffff !important;"   // Schriftfarbe wechseln
         "}"
     );
 
