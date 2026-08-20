@@ -1,0 +1,24 @@
+﻿# Copyright (c) 2011 Sebastian Vandersee
+
+P+744+1052
+
+F+1+Arial+11+0+0+0
+F+2+Arial+12+1+0+1
+F+3+Arial+8+0+0+0
+F+4+Arial+9+0+0+0
+
+T+2+88+108+140+Therapiebericht
+T+4+400+990+200+Stempel und Unterschrift
+T+3+382+158+270+Name des Patienten
+T+3+382+198+270+Datum
+
+L+380+160+655+160
+L+380+200+655+200
+L+350+990+655+990
+
+D+1+88+140+250+#PHYSICIAN.ADDR#
+D+1+380+134+270+#PATIENT.FULLNAME#
+D+1+380+174+100+#REPORT.DATE#
+D+4+88+270+610+#REPORT.CONTENT1#
+D+1+88+870+290+#SURGERY.ADDR#
+

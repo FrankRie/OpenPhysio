@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgDocEditNew</class>
+ <widget class="QDialog" name="DlgDocEditNew">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>308</width>
+    <height>132</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Neue Vorlage</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="docedit.qrc">
+    <normaloff>:/docedit/images/favicon.png</normaloff>:/docedit/images/favicon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Vorlagentyp:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QComboBox" name="cbDocType"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Größe:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QComboBox" name="cbPageSize">
+     <item>
+      <property name="text">
+       <string>A4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A4 Quer</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Karteikarte</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Name der Vorlage:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLineEdit" name="leName"/>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pbCancel">
+        <property name="text">
+         <string>&amp;Abbrechen</string>
+        </property>
+        <property name="icon">
+         <iconset resource="docedit.qrc">
+          <normaloff>:/docedit/images/cancel.png</normaloff>:/docedit/images/cancel.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pbSave">
+        <property name="text">
+         <string>Ü&amp;bernehmen</string>
+        </property>
+        <property name="icon">
+         <iconset resource="docedit.qrc">
+          <normaloff>:/docedit/images/accept.png</normaloff>:/docedit/images/accept.png</iconset>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>leName</tabstop>
+  <tabstop>cbDocType</tabstop>
+  <tabstop>cbPageSize</tabstop>
+ </tabstops>
+ <resources>
+  <include location="docedit.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgCourseClass</class>
+ <widget class="QDialog" name="DlgCourseClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Kurse anlegen/bearbeiten</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images/images.qrc">
+    <normaloff>:/favicon.png</normaloff>:/favicon.png</iconset>
+  </property>
+  <layout class="QGridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Kursname</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Kursbeginn / Status</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="3">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_1">
+      <attribute name="icon">
+       <iconset resource="images/images.qrc">
+        <normaloff>:/roles.png</normaloff>:/roles.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>&amp;Teilnehmer</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0" rowspan="3">
+        <widget class="QListWidget" name="listPatients">
+         <property name="selectionMode">
+          <enum>QAbstractItemView::MultiSelection</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="pbAddPatient">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>Teilnehmer hinzufügen</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="images/images.qrc">
+           <normaloff>:/plus.png</normaloff>:/plus.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="pbDelPatient">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>Gewählte Teilnehmer entfernen</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="images/images.qrc">
+           <normaloff>:/minus.png</normaloff>:/minus.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="icon">
+       <iconset resource="images/images.qrc">
+        <normaloff>:/termine.png</normaloff>:/termine.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>Termine und Teilnahme</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="2" column="0" colspan="2">
+        <widget class="QTreeWidget" name="treeWidget">
+         <property name="maximumSize">
+          <size>
+           <width>250</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <column>
+          <property name="text">
+           <string>Kurstermine</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pbAddDate">
+            <property name="maximumSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Termin hinzufügen</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="images/images.qrc">
+              <normaloff>:/plus.png</normaloff>:/plus.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pbDelDate">
+            <property name="maximumSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="toolTip">
+             <string>Termin löschen</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="images/images.qrc">
+              <normaloff>:/minus.png</normaloff>:/minus.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="2" colspan="5">
+        <widget class="QTableWidget" name="tableWidget">
+         <attribute name="verticalHeaderVisible">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Name</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Vorname</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Teilnahme</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="0" column="1" colspan="3">
+        <widget class="QWidget" name="widget_3" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>von</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="5" colspan="2">
+        <widget class="QWidget" name="widget_4" native="true">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Mitarbeiter:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="cbCurLeader"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Raum:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QComboBox" name="cbRoom"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLineEdit" name="leName"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Kursleiter/in</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QComboBox" name="cbLeader"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Uhrzeit / Dauer (Minuten)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="3">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pbInvoice">
+        <property name="toolTip">
+         <string>Für gewählte Teilnehmer Rechnung erstellen</string>
+        </property>
+        <property name="text">
+         <string>&amp;Rechnungen
+erstellen</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/invoice.png</normaloff>:/invoice.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pbParticipance">
+        <property name="toolTip">
+         <string>Für gewählte Teilnehmer Bestätigung erstellen</string>
+        </property>
+        <property name="text">
+         <string>Teilnahme-
+&amp;bestätigung</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/printer.png</normaloff>:/printer.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="pbCancel">
+        <property name="toolTip">
+         <string>Abbrechen</string>
+        </property>
+        <property name="text">
+         <string>&amp;Abbrechen</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/cancel.png</normaloff>:/cancel.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="pbSave">
+        <property name="toolTip">
+         <string>Kursdaten speichern</string>
+        </property>
+        <property name="text">
+         <string>&amp;Speichern</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/save.png</normaloff>:/save.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pbPartList">
+        <property name="text">
+         <string>Teilnehmer-
+&amp;liste</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/template.png</normaloff>:/template.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Einheiten / Preis pro Kurseinheit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QSpinBox" name="spDuration"/>
+   </item>
+   <item row="2" column="2">
+    <widget class="QComboBox" name="cbState"/>
+   </item>
+   <item row="4" column="2">
+    <widget class="QDoubleSpinBox" name="spPrice">
+     <property name="suffix">
+      <string> €</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QSpinBox" name="spUnits"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>leName</tabstop>
+  <tabstop>cbLeader</tabstop>
+  <tabstop>cbState</tabstop>
+  <tabstop>spDuration</tabstop>
+  <tabstop>spUnits</tabstop>
+  <tabstop>spPrice</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>listPatients</tabstop>
+  <tabstop>pbAddPatient</tabstop>
+  <tabstop>pbDelPatient</tabstop>
+  <tabstop>pbInvoice</tabstop>
+  <tabstop>pbParticipance</tabstop>
+  <tabstop>pbPartList</tabstop>
+  <tabstop>pbCancel</tabstop>
+  <tabstop>pbSave</tabstop>
+  <tabstop>treeWidget</tabstop>
+  <tabstop>pbAddDate</tabstop>
+  <tabstop>pbDelDate</tabstop>
+  <tabstop>tableWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="images/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

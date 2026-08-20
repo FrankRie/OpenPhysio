@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgDocEditData</class>
+ <widget class="QDialog" name="DlgDocEditData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Platzhalter einfügen</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="docedit.qrc">
+    <normaloff>:/docedit/images/favicon.png</normaloff>:/docedit/images/favicon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0" colspan="2">
+    <widget class="QTreeWidget" name="treeWidget">
+     <property name="headerHidden">
+      <bool>true</bool>
+     </property>
+     <column>
+      <property name="text">
+       <string notr="true">1</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pbCancel">
+     <property name="text">
+      <string>&amp;Abbrechen</string>
+     </property>
+     <property name="icon">
+      <iconset resource="docedit.qrc">
+       <normaloff>:/docedit/images/cancel.png</normaloff>:/docedit/images/cancel.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pbSave">
+     <property name="text">
+      <string>Ü&amp;bernehmen</string>
+     </property>
+     <property name="icon">
+      <iconset resource="docedit.qrc">
+       <normaloff>:/docedit/images/accept.png</normaloff>:/docedit/images/accept.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="labelData">
+     <property name="text">
+      <string>Verfügbare Platzhalter für Dokumententyp </string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="docedit.qrc"/>
+ </resources>
+ <connections/>
+</ui>

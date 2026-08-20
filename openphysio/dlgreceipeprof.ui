@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgReceipeProf</class>
+ <widget class="QDialog" name="DlgReceipeProf">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>194</width>
+    <height>158</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Rezepttyp wählen</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images/images.qrc">
+    <normaloff>:/favicon.png</normaloff>:/favicon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Bitte Rezepttyp wählen:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pbPhysio">
+     <property name="text">
+      <string>Physiotherapie</string>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QPushButton" name="pbErgo">
+     <property name="text">
+      <string>Ergotherapie</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="pbCancel">
+     <property name="text">
+      <string>Abbrechen</string>
+     </property>
+     <property name="icon">
+      <iconset resource="images/images.qrc">
+       <normaloff>:/cancel.png</normaloff>:/cancel.png</iconset>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="pbLogo">
+     <property name="text">
+      <string>Logopädie</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>pbPhysio</tabstop>
+  <tabstop>pbErgo</tabstop>
+  <tabstop>pbLogo</tabstop>
+  <tabstop>pbCancel</tabstop>
+ </tabstops>
+ <resources>
+  <include location="images/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,48 @@
+﻿# Copyright (c) 2010 Sebastian Vandersee
+
+P+744+1052
+
+F+1+Constantia+10+0+0+0
+F+2+Constantia+10+1+0+0
+F+3+Constantia+9+0+0+0
+F+4+Constantia+10+1+0+1
+F+5+Comic Sans MS+12+0+0+0
+F+6+Constantia+10+0+0+0
+F+7+Constantia+10+1+0+0
+F+8+Constantia+8+0+0+0
+F+9+Constantia+11+0+0+0
+
+
+T+2+88+290+100+Betreff:
+T+2+198+290+100+Rechnung
+T+2+88+310+140+Rechnungsnr.:
+T+1+88+430+580+hiermit erlaube ich mir für die laut Anlage im Zeitraum vom                      bis                       in Rechnung zu stellen:
+T+1+100+480+200+Abrechnungsbeitrag:
+T+1+100+520+200+Verinbarter Anteil(      %): 
+
+T+1+88+600+600+Gemäß §4 Nr. 14 UStG sind die aufgeführten Leistungen umsatzsteuerfrei.
+T+1+88+620+600+Ich bitte um Überweisung des vereinbarten Anteils binnen 30 Tage auf mein Konto.
+T+1+88+660+600+Mit freundlichen Grüßen
+T+1+88+870+600+Anlage+8
+
+
+# Faltmarkierungen
+L+4+336+20+336+1
+L+726+336+740+336+1
+
+
+
+D+9+88+150+320+#PINVOICE.ADDR#
+D+1+430+50+240+#SURGERY.ADDR#+2
+D+1+576+270+100+#PINVOICE.DATE#+2
+D+2+198+310+180+#PINVOICE.NR#
+D+1+88+380+500+#PINVOICE.FORM#
+D+1+435+430+60+#PINVOICE.SDATE#+4
+D+1+520+430+60+#PINVOICE.EDATE#+4
+
+D+8+88+958+580+#SURGERY.BANKING#+4
+D+1+88+740+500+#PINVOICE.NAME#
+
+D+1+457+480+100+#PINVOICE.SAMOUNT#+2
+D+2+457+520+100+#PINVOICE.AMOUNT#+2
+D+1+212+520+30+#PINVOICE.MPART#

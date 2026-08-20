@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgBill2Class</class>
+ <widget class="QDialog" name="DlgBill2Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>783</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Abrechnung Kassenrezepte (Schritt 2)</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images/images.qrc">
+    <normaloff>:/favicon.png</normaloff>:/favicon.png</iconset>
+  </property>
+  <layout class="QGridLayout">
+   <property name="margin">
+    <number>2</number>
+   </property>
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Schritt 2: Rezepte abrechnen</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="7">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Hier können Sie Kassenrezepte abrechnen, die den Status &quot;Abgeschlossen&quot; bzw. &quot;Abgebrochen&quot; haben.
+Sobald ein Rezept abgerechnet ist, wird es in unten stehender Tabelle grün hinterlegt.</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="6">
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Zeitraum:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="6">
+    <widget class="QDateEdit" name="deStart"/>
+   </item>
+   <item row="3" column="7">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>bis</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="8">
+    <widget class="QDateEdit" name="deEnd"/>
+   </item>
+   <item row="6" column="6">
+    <widget class="QLabel" name="label_5">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Status:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="6" colspan="2">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Anzahl der abgerechneten Rezepte</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="6">
+    <widget class="QPushButton" name="pbRecAll">
+     <property name="text">
+      <string>Alle Rezepte auf
+&quot;Abgerechnet&quot; setzen</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="8">
+    <widget class="QLineEdit" name="leNumRec">
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0" colspan="3">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QPushButton" name="pbBack">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Zurück</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/abrechnung.png</normaloff>:/abrechnung.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbCancel">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Abbrechen</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/cancel.png</normaloff>:/cancel.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbSave">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Abschließen</string>
+        </property>
+        <property name="icon">
+         <iconset resource="images/images.qrc">
+          <normaloff>:/save.png</normaloff>:/save.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="4" column="6">
+    <widget class="QPushButton" name="pbRecSelect">
+     <property name="text">
+      <string>Ausgewählte Rezepte auf
+&quot;Abgerechnet&quot; setzen</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="6" colspan="2">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>Wert der abgerechneten Rezepte €</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="8">
+    <widget class="QLineEdit" name="leSum">
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="images/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

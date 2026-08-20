@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>openphysioClass</class>
+ <widget class="QMainWindow" name="openphysioClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>OpenPhysio</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="images/images.qrc">
+    <normaloff>:/favicon.png</normaloff>:/favicon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout">
+    <property name="leftMargin">
+     <number>4</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>2</number>
+    </property>
+    <property name="bottomMargin">
+     <number>2</number>
+    </property>
+    <property name="horizontalSpacing">
+     <number>2</number>
+    </property>
+    <property name="verticalSpacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="mainPanel" native="true">
+      <layout class="QGridLayout" name="gridLayout_3">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>2</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabWidget">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tabPatients">
+          <attribute name="title">
+           <string>[&amp;1] Patienten</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+         <widget class="QWidget" name="tabReceipes">
+          <attribute name="title">
+           <string>[&amp;2] Rezepte</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+         <widget class="QWidget" name="tabCourses">
+          <attribute name="title">
+           <string>[&amp;3] Kurse</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+         <widget class="QWidget" name="tabPhysicians">
+          <attribute name="title">
+           <string>[&amp;4] Ärzte</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+         <widget class="QWidget" name="tabEmployees">
+          <attribute name="title">
+           <string>[&amp;5] Mitarbeiter</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+         <widget class="QWidget" name="tabPraxis">
+          <attribute name="title">
+           <string>[&amp;6] Praxis</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+         <widget class="QWidget" name="tabDocs">
+          <attribute name="title">
+           <string>[&amp;7] Dokumente</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+         <widget class="QWidget" name="tabCash">
+          <attribute name="title">
+           <string>[&amp;8] Kasse</string>
+          </attribute>
+          <layout class="QGridLayout"/>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="windowTitle">
+    <string>OpenPhysio-Toolbar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>637</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDatei">
+    <property name="title">
+     <string>&amp;Datei</string>
+    </property>
+    <widget class="QMenu" name="menuNeu">
+     <property name="title">
+      <string>Neu ..</string>
+     </property>
+     <addaction name="actionNewReceipe"/>
+     <addaction name="actionNewReceipePrivate"/>
+     <addaction name="actionNewDate"/>
+     <addaction name="actionNewPatient"/>
+     <addaction name="actionNewCourse"/>
+     <addaction name="actionNewPhysician"/>
+     <addaction name="actionNewEmployee"/>
+    </widget>
+    <addaction name="menuNeu"/>
+    <addaction name="actionChangeRole"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuHilfe">
+    <property name="title">
+     <string>&amp;Hilfe</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>A&amp;nsicht</string>
+    </property>
+    <addaction name="actionSwitchView"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuExtras">
+    <property name="title">
+     <string>E&amp;xtras</string>
+    </property>
+    <addaction name="actionBackup"/>
+    <addaction name="actionStatistics"/>
+   </widget>
+   <widget class="QMenu" name="menuBill">
+    <property name="title">
+     <string>A&amp;brechnung</string>
+    </property>
+    <addaction name="actionReceipes"/>
+   </widget>
+   <addaction name="menuDatei"/>
+   <addaction name="menuView"/>
+   <addaction name="menuBill"/>
+   <addaction name="menuExtras"/>
+   <addaction name="menuHilfe"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="sizeGripEnabled">
+    <bool>false</bool>
+   </property>
+   <widget class="QLabel" name="statLab">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1400</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+  </widget>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/exit.png</normaloff>:/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Beenden</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/help.png</normaloff>:/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>Programmhilfe</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/info.png</normaloff>:/info.png</iconset>
+   </property>
+   <property name="text">
+    <string>Über OpenPhysio ..</string>
+   </property>
+  </action>
+  <action name="actionSwitchView">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/termine.png</normaloff>:/termine.png</iconset>
+   </property>
+   <property name="text">
+    <string>Terminplaner</string>
+   </property>
+  </action>
+  <action name="actionBackup">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/backup.png</normaloff>:/backup.png</iconset>
+   </property>
+   <property name="text">
+    <string>Datensicherung ..</string>
+   </property>
+  </action>
+  <action name="actionStatistics">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/stat.png</normaloff>:/stat.png</iconset>
+   </property>
+   <property name="text">
+    <string>Statistiken ..</string>
+   </property>
+  </action>
+  <action name="actionReceipes">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/abrechnung.png</normaloff>:/abrechnung.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kassenrezepte</string>
+   </property>
+  </action>
+  <action name="actionNewReceipe">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/new.png</normaloff>:/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kassenrezept</string>
+   </property>
+  </action>
+  <action name="actionNewDate">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/termine.png</normaloff>:/termine.png</iconset>
+   </property>
+   <property name="text">
+    <string>Termin</string>
+   </property>
+  </action>
+  <action name="actionNewPatient">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/new_user.png</normaloff>:/new_user.png</iconset>
+   </property>
+   <property name="text">
+    <string>Patient</string>
+   </property>
+  </action>
+  <action name="actionNewCourse">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/new.png</normaloff>:/new.png</iconset>
+   </property>
+   <property name="text">
+    <string> Kurs</string>
+   </property>
+  </action>
+  <action name="actionNewPhysician">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/physician_add.png</normaloff>:/physician_add.png</iconset>
+   </property>
+   <property name="text">
+    <string>Arzt</string>
+   </property>
+  </action>
+  <action name="actionNewEmployee">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/group.png</normaloff>:/group.png</iconset>
+   </property>
+   <property name="text">
+    <string>Mitarbeiter</string>
+   </property>
+  </action>
+  <action name="actionChangeRole">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/roles.png</normaloff>:/roles.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rolle wechseln ..</string>
+   </property>
+  </action>
+  <action name="actionNewReceipePrivate">
+   <property name="icon">
+    <iconset resource="images/images.qrc">
+     <normaloff>:/new_private.png</normaloff>:/new_private.png</iconset>
+   </property>
+   <property name="text">
+    <string>Privatrezept</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="images/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

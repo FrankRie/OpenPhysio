@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <database>
+        <driver value="QSQLITE"/>
+        <name value="openphysio"/>
+        <file value="database/openphysio.db"/>
+        <host value="localhost"/>
+        <user value="openphysio"/>
+        <pw value=""/>
+    </database>
+    <surgery>
+        <surgid value="1"/>
+    </surgery>
+    <display>
+        <table_colormode value="true"/>
+        <colRunning value="255,255,255,255"/>
+        <colDone value="189,194,231,255"/>
+        <colReminder value="231,98,45,255"/>
+        <colPayed value="255,255,255,255"/>
+        <colCleared value="129,220,157,255"/>
+        <colOpen value="231,189,45,255"/>
+        <colCanceled value="189,194,231,255"/>
+		<fontsize_findings value="10"/>
+    </display>
+    <printer>
+        <prndev_receipe value="1"/>
+        <prndev_doc value="1"/>
+        <prndev_dates value="3"/>
+        <prndlg_receipe value="true"/>
+        <prndlg_doc value="true"/>
+        <prndlg_dates value="true"/>
+        <ofx value="0"/>
+        <ofy value="0"/>
+        <doc_ofx value="0"/>
+        <doc_ofy value="0"/>
+    </printer>
+    <reader>
+        <rdevice value="0"/>
+        <api value="0"/>
+        <lib value="C:/WINDOWS/system32/ctpcsc31kv.dll"/>
+        <readofs value="0"/>
+        <port value="1"/>
+        <select value="true"/>
+        <term value="1"/>
+    </reader>
+    <roles>
+        <default_role value="0"/>
+    </roles>
+    <backup>
+        <dir_backup value="C:/Temp"/>
+    </backup>
+    <app>
+        <debug value="true"/>
+        <dir_doc value="doc/"/>
+    </app>
+    <courses>
+        <default_duration value="60"/>
+        <default_units value="10"/>
+    </courses>
+    <planner>
+        <work_start value="7"/>
+        <work_end value="20"/>
+        <work_days value="5"/>
+        <work_interval value="30"/>
+        <planview value="1"/>
+        <planstart value="0"/>
+        <maxresdisplay value="6"/>
+        <render_start_end value="1"/>
+        <render_fullname value="1"/>
+        <colTherapy value="207,216,230,255"/>
+        <colCourse value="227,203,214,255"/>
+        <colMeeting value="213,236,188,255"/>
+        <colTraining value="255,255,255,255"/>
+        <colHoliday value="255,255,255,255"/>
+        <colCorpHoliday value="255,255,255,255"/>
+        <colOther value="255,255,255,255"/>
+        <colDrive value="255,85,0,255"/>
+    </planner>
+    <hotkeys>
+        <F01 value="10"/>
+        <F02 value="8"/>
+        <F03 value="3"/>
+        <F04 value="4"/>
+        <F05 value="5"/>
+        <F06 value="2"/>
+        <F07 value="6"/>
+        <F08 value="0"/>
+        <F09 value="0"/>
+        <F10 value="9"/>
+        <F11 value="0"/>
+        <F12 value="1"/>
+    </hotkeys>
+    <other>
+        <preload value="1"/>
+        <reminder_period value="14"/>
+    </other>
+    <textmodules>
+        <autodate value="1"/>
+    </textmodules>
+</config>

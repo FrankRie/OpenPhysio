@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="teilnahmebescheinigung.svg">
+  <defs
+     id="defs4">
+    <mask
+       maskTransform="scale(1155,6)"
+       id="mask3319"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3321"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIMAAAAGCAAAAAB1UgFTAAAAAXNCSVQI5gpbmQAAADdJREFUWIXt0jEKACAMA8D0/4/WzV0tOHi3B0JIAgDwp0rG6w50qdOgDywbG1qtwfFnAQAAuDABFOwDAltpYLoAAAAASUVORK5CYII="
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(1154,6)"
+       id="mask3303"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3305"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIIAAAAGCAAAAACakGptAAAAAXNCSVQI5gpbmQAAAD1JREFUWIXt0zEOACAIA0D4/6N1dsDNSPRuZWnaEAEA8KOMGLczPCg3N32viq6611RN3D13M7tPAQAA4IgJ+qsEAr3fF6EAAAAASUVORK5CYII="
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(1154,6)"
+       id="mask3265"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3267"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABIIAAAAGCAAAAACakGptAAAAAXNCSVQI5gpbmQAAADpJREFUWIXt0jEKACAMA8D2/4/WXVQQBKHerVka0ggAgB9lRHt9w+9yHVXbZlN1VK06UwcfAQAAwB0dE9QDAt48TdkAAAAASUVORK5CYII="
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(110,6)"
+       id="mask3227"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3229"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAAGCAAAAAAHl/QQAAAAAXNCSVQI5gpbmQAAABZJREFUKJFjYBjOgJGB4T89LRsF1AMAvPsBAoLe9dIAAAAASUVORK5CYII="
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(650,6)"
+       id="mask3215"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3217"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAooAAAAGCAAAAABh8uDaAAAAAXNCSVQI5gpbmQAAADFJREFUSInt0cEJACAQA8Fo/z3rR7CA88DHTAFLIAkA10hWS7Xoy1EcLe/M91EAoGoD3EwDBPekRcwAAAAASUVORK5CYII="
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(1023,6)"
+       id="mask3133"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3135"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/8AAAAGCAAAAACwHHHGAAAAAXNCSVQI5gpbmQAAADZJREFUWIXt0bENADAIBDHYf+hkgdCCFOzyK3REAADbZMSZvqFfvueFJRoV0VWfU70EAAD40QWTyAMCpM3k9wAAAABJRU5ErkJggg=="
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(765,6)"
+       id="mask3107"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3109"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAv0AAAAGCAAAAAB1Z347AAAAAXNCSVQI5gpbmQAAACZJREFUWIXtzjEBADAMA6DUv+jOxXIUFJAAcM0k2z5Aw7QDAAAfPRCnAQLMdoWmAAAAAElFTkSuQmCC"
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(551,6)"
+       id="mask3095"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3097"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAicAAAAGCAAAAAA9VGG7AAAAAXNCSVQI5gpbmQAAAC9JREFUSInt0EEKACAMA8H0/4/Wu14tBZl5QAibALxRyZr+0Kgat3/udujMCAC3DRa5AgI71ObsAAAAAElFTkSuQmCC"
+         height="1"
+         width="1" />
+    </mask>
+    <mask
+       maskTransform="scale(1170,6)"
+       id="mask3077"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       maskUnits="userSpaceOnUse">
+      <image
+         id="image3079"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABJIAAAAGCAAAAAC9PuuFAAAAAXNCSVQI5gpbmQAAADdJREFUWIXt0bENADAIA0Gz/9DJAJFIhWjuWjfoSQAAeFVytm+gUc3mcwO64Inow375AQAAWHcBHloDAgpaMnYAAAAASUVORK5CYII="
+         height="1"
+         width="1" />
+    </mask>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.96130694"
+     inkscape:cx="460.32346"
+     inkscape:cy="687.67221"
+     inkscape:document-units="cm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="975"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       id="text2999"
+       x="139.0052"
+       y="67.188522"
+       style="font-size:18px">
+      <tspan
+         style="font-size:18px;font-variant:normal;font-weight:bold;font-stretch:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial-BoldMT"
+         x="139.0052 149.69292 159.41949 164.28804 169.15657 179.84428 189.57086 200.25858 215.80434 225.53091 236.21863 245.94522 255.6718 265.39838 276.08609 285.81268 290.68121 301.36893 306.23746 316.92517 327.61288 338.3006 348.98831 353.86557 364.55328 375.241 385.92871 390.85492 403.47885 414.16306 420.0871 426.90933 436.63242 447.31662 452.19391 461.91699 472.6012 478.42737 483.30463 495.92859 505.65167 514.39618 525.08038 534.80353 544.52661 555.21082 565.89502 575.6181 585.34125 596.02545 606.70966"
+         y="67.188522"
+         sodipodi:role="line"
+         id="tspan3001">Teilnahmebescheinigung und Antrag auf Bezuschussung</tspan>
+    </text>
+    <text
+       id="text3003"
+       x="109.68021"
+       y="82.150932"
+       style="font-size:13px">
+      <tspan
+         style="font-size:13px;font-variant:normal;font-weight:bold;font-stretch:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Arial;-inkscape-font-specification:Arial-BoldMT"
+         x="109.68021 113.50674 121.90369 130.30064 134.12717 141.76926 145.59578 153.99274 162.38969 170.03177 173.85831 177.68483 185.25829 189.0862 200.53011 208.17218 216.56912 224.96608 232.60817 241.00513 253.21764 260.85971 269.25665 273.08456 277.66595 287.5864 295.98337 301.33337 308.97543 316.61752 320.44403 324.27194 333.4375 341.07959 353.29208 357.11862 365.51559 373.15765 378.50766 386.14975 390.73114 394.55905 402.95599 410.59808 415.94809 419.776 428.94156 434.29156 438.11807 450.33057 457.97266 463.32266 471.7196 477.06961 484.7117 492.35376 499.99588 508.39282 512.97424 516.80078 525.19775 533.59467 537.42261 545.81958 553.46161 561.1037 569.50067 573.32855 580.97064 584.79858 592.44061 600.0827 603.91064 613.07617 623.7652 633.68561 637.51355 646.67908"
+         y="82.150932"
+         sodipodi:role="line"
+         id="tspan3005">Individuelle Maßnahmen (Kurse, Seminare) der Primärprävention nach § 20 SGB V</tspan>
+    </text>
+    <path
+       inkscape:connector-curvature="0"
+       d="m 12.834798,143.20507 0.600013,0 0,-0.59997 -0.600013,0 0,0.59997 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3035" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 511.4958,187.58384 0.028,0 0,4.31706 -0.028,0 0,-4.31706 z"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path3055" />
+    <g
+       id="g3694"
+       transform="translate(44.077625,-8.0755316)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3646"
+         y="112.6312"
+         x="19.122627"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="112.6312"
+           x="19.122627"
+           id="tspan3648"
+           sodipodi:role="line">Der Anbieter der Maßnahme füllt Teil 1 &quot;Teilnahmebescheinigung&quot; dieses Bogens</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3646-8"
+         y="124.5511"
+         x="19.295134"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="124.5511"
+           x="19.295134"
+           id="tspan3648-3"
+           sodipodi:role="line">aus. Der Versicherte füllt Teil 2 &quot;Antrag au Bezuschussung&quot; aus und leitet den Bo-</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3646-8-5"
+         y="137.07338"
+         x="19.315184"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           y="137.07338"
+           x="19.315184"
+           id="tspan3648-3-0"
+           sodipodi:role="line">gen an die Krankenkasse weiter.</tspan></text>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-miterlimit:1;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3707"
+       width="449.3053"
+       height="48.91161"
+       x="53.496952"
+       y="142.07961" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="62.865463"
+       y="155.59801"
+       id="text4477"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4479"
+         x="62.865463"
+         y="155.59801">Name und Adresse des Anbieters:</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.70866142;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4481"
+       width="187.12433"
+       height="102.09103"
+       x="514.7077"
+       y="89.001907" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="519.44879"
+       y="103.83955"
+       id="text4483"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="519.44879"
+         y="103.83955"
+         id="tspan4487">Vermerke der Krankenkasse</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+       x="62.751205"
+       y="216.94917"
+       id="text4491"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4493"
+         x="62.751205"
+         y="216.94917">1. Teilnahmebescheinigung</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="235.96614"
+       y="216.8343"
+       id="text4495"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4497"
+         x="235.96614"
+         y="216.8343">(vom Anbieter auszufüllen)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="66.408775"
+       y="254.9716"
+       id="text4499"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4501"
+         x="66.408775"
+         y="254.9716">Name des Teilnehmers/der Teilnehmerin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="389.71106"
+       y="254.97746"
+       id="text4499-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4501-9"
+         x="389.71106"
+         y="254.97746">Vorname</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="584.00702"
+       y="254.9716"
+       id="text4499-3-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4501-9-0"
+         x="584.00702"
+         y="254.9716">Geburtsdatum</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.77767539;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 53.538444,240.25726 c 236.623896,0 236.623896,0.29876 236.623896,0.29876"
+       id="path4547"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.75286222;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 308.64414,240.24485 c 204.75895,0 204.75895,0.32358 204.75895,0.32358"
+       id="path4547-4"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.72663355;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 528.31608,240.23174 c 176.43872,0 176.43872,0.3498 176.43872,0.3498"
+       id="path4547-4-9"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

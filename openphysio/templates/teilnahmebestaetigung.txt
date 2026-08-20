@@ -1,0 +1,92 @@
+﻿# Copyright (c) 2011 Sebastian Vandersee
+
+P+744+1052
+
+F+1+Arial+11+0+0+0
+F+2+Arial+13+1+0+1
+F+3+Arial+9+0+0+0
+F+4+Arial+11+1+0+1
+
+T+2+88+110+500+Teilnahmebestätigung
+T+3+88+168+530+Name, Vorname des Teilnehmers
+T+1+88+218+500+hat an folgendem Kurs teilgenommen:
+T+3+88+248+200+Bezeichnung
+T+3+88+308+150+Kursleiter/in
+T+3+486+308+150+Einheiten
+T+3+580+308+150+Dauer (Min.)
+T+1+88+404+300+Wir bestätigen, dass
+T+1+120+425+500+eine regelmäßige Teilnahme an den Kurseinheiten erfolgte,
+T+1+120+455+400+die Kursgebühr in Höhe von €
+T+1+369+455+200+entrichtet wurde.
+T+3+370+540+300+Stempel und Unterschrift
+T+3+88+738+300+Ort, Datum
+T+3+88+356+80+Kurstermine:
+T+1+88+490+570+Der Kurs wurde entsprechend den Richtlinien des §20 SGB V als Präventionsmaß-nahme durchgeführt.
+
+# Rahmen Stempel
+L+370+540+660+540+1
+L+370+540+370+780+1
+L+370+780+660+780+1
+L+660+540+660+780+1
+
+# Rahmen Ort, Datum
+L+88+738+350+738+1
+L+88+738+88+780+1
+L+88+780+350+780+1
+L+350+738+350+780+1
+
+# Checkbox 1
+L+90+429+110+429+1
+L+90+429+90+449+1
+L+90+449+110+449+1
+L+110+429+110+449+1
+L+92+431+108+447+0
+L+108+431+92+447+0
+
+# Checkbox 2
+L+90+459+110+459+1
+L+90+459+90+479+1
+L+90+479+110+479+1
+L+110+459+110+479+1
+L+92+461+108+477+0
+L+108+461+92+477+0
+
+# Rahmen Patientenname
+L+88+170+660+170+1
+L+88+212+660+212+1
+L+88+170+88+212+1
+L+660+170+660+212+1
+
+# Rahmen Kursbezeichnung
+L+88+250+660+250+1
+L+88+292+660+292+1
+L+88+250+88+292+1
+L+660+250+660+292+1
+
+# Rahmen Kursleiter
+L+88+310+480+310+1
+L+88+352+480+352+1
+L+88+310+88+352+1
+L+480+310+480+352+1
+
+# Rahmen Einheiten
+L+486+310+570+310+1
+L+486+352+570+352+1
+L+486+310+486+352+1
+L+570+310+570+352+1
+
+# Rahmen Dauer
+L+576+310+660+310+1
+L+576+352+660+352+1
+L+576+310+576+352+1
+L+660+310+660+352+1
+
+
+D+1+96+186+540+#PATIENT.FULLNAME#
+D+1+96+265+380+#COURSE.NAME#
+D+1+96+325+380+#EMPLOYEE.FULLNAME#
+D+1+488+325+80+#COURSE.COUNT#
+D+1+580+325+80+#COURSE.DURATION#
+D+1+314+455+60+#COURSE.AMOUNT#+4
+D+1+90+756+260+#SURGERY.CITYDATE#
+D+3+88+370+574+#COURSE.DATES#

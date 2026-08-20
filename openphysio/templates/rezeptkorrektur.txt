@@ -1,0 +1,27 @@
+﻿# Copyright (c) 2011 Sebastian Vandersee
+
+P+1052+744
+
+F+1+Arial+11+0+0+0
+F+2+Arial+12+1+0+0
+
+I+520+0+muster13.svg
+
+T+2+60+50+250+Bitte um Rezeptkorrektur
+T+1+60+86+200+Sehr geehrte/r
+T+1+60+120+430+wir bitte um Korrektur des beigefügten Rezeptes, damit dieses den Anforderungen der Heilmittelrichtlinien genügt. Anderenfalls können wir das Rezept nicht bei der zuständigen Krankenkasse abrechnen.
+T+1+60+200+430+Auf der Rezeptvorlage auf der rechten Seite dieses Schreibens haben wie bereits die Angaben markiert oder ergänzt, die geändert werden müssen.
+T+1+60+270+430+Bitte folgende Änderungen bzw. Ergänzungen auf dem beigefügten Originalrezept vornehmen:
+T+1+60+320+440+[    ]  Indikationsschlüssel (fehlt/fehlerhaft)
+T+1+60+340+440+[    ]  Diagnose (fehlt)
+T+1+60+360+440+[    ]  Leitsymptomatik (fehlt)
+T+1+60+380+440+[    ]  Heilmittel (entsprechen nicht dem Heilmittelkatalog)
+T+1+60+400+440+[    ]  Angabe Erst-/Folgeverordnung (fehlerhaft)
+T+1+60+420+440+[    ]  Verordnungsmenge (entspricht nicht dem Heilmittelkatalog)
+T+1+60+440+440+[    ]  Medizinische Begründung bei VO außerhalb des Regelfalls
+T+1+60+460+440+[    ]  Stempel/Unterschrift des Arztes
+T+1+60+500+430+Bitte bestätigen Sie die Änderungen auf dem Originalrezept mit Datum, Stempel und Unterschrift, da die Krankenkasse die Änderungen sonst nicht akzeptiert.
+T+1+60+590+430+Vielen Dank und freundliche Grüße,
+
+D+1+200+86+300+#CORRECTION.SALUT#
+D+1+60+610+400+#SURGERY.ADDR#

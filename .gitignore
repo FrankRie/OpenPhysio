@@ -1,1 +1,8 @@
-.
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+build/
+.qtcreator/
+*.user
+*.user.*
+.svn/

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgDocSave</class>
+ <widget class="QDialog" name="DlgDocSave">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>325</width>
+    <height>92</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Vorlage speichern</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="docedit.qrc">
+    <normaloff>:/docedit/images/favicon.png</normaloff>:/docedit/images/favicon.png</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Name der Vorlage:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="leName"/>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="horizontalSpacing">
+       <number>2</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>0</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pbCancel">
+        <property name="text">
+         <string>&amp;Abbrechen</string>
+        </property>
+        <property name="icon">
+         <iconset resource="docedit.qrc">
+          <normaloff>:/docedit/images/cancel.png</normaloff>:/docedit/images/cancel.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pbSave">
+        <property name="text">
+         <string>&amp;Speichern</string>
+        </property>
+        <property name="icon">
+         <iconset resource="docedit.qrc">
+          <normaloff>:/docedit/images/save.png</normaloff>:/docedit/images/save.png</iconset>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>leName</tabstop>
+  <tabstop>pbCancel</tabstop>
+  <tabstop>pbSave</tabstop>
+ </tabstops>
+ <resources>
+  <include location="docedit.qrc"/>
+ </resources>
+ <connections/>
+</ui>

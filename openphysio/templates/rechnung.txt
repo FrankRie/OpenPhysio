@@ -1,0 +1,75 @@
+﻿# Copyright (c) 2011 Sebastian Vandersee
+
+P+744+1052
+
+F+1+Arial+10+0+0+0
+F+2+Arial+10+1+0+0
+F+3+Arial+9+0+0+0
+F+4+Arial+10+1+0+1
+F+5+Comic Sans MS+12+0+0+0
+F+6+Arial+10+0+0+0
+F+7+Arial+10+1+0+0
+F+8+Arial+8+0+0+0
+
+
+T+2+88+290+100+Betreff:
+T+2+198+290+100+Rechnung
+T+2+88+310+140+Rechnungsnr.:
+T+1+88+378+580+hiermit erlauben wir uns die folgenden, von Ihnen in Anspruch genommenen Leistungen zu berechnen:
+T+7+92+430+60+Anzahl
+T+7+152+430+90+Positionen
+T+7+474+430+100+Einzelpreis
+T+7+558+430+100+Gesamtpreis
+T+1+88+635+80+Termine:
+T+1+88+720+600+Gemäß §4 Nr. 14 UStG sind die aufgeführten Leistungen umsatzsteuerfrei.
+T+1+88+740+600+Wir bitten um Umweisung des o.g. Gesamtbetrags binnen 2 Wochen.
+T+1+88+780+600+Mit freundlichen Grüßen
+
+# Faltmarkierungen
+L+4+336+20+336+1
+L+726+336+740+336+1
+
+# Horizontale Linien der Tabelle
+L+90+432+660+432+0
+L+90+454+660+454+0
+L+90+484+660+484+0
+L+90+514+660+514+0
+L+90+544+660+544+0
+L+90+574+660+574+0
+L+90+604+660+604+0
+L+90+634+660+634+0
+# Vertikale Linien der Tabelle
+L+90+432+90+634+0
+L+660+432+660+634+0
+L+146+432+146+634+0
+L+474+432+474+634+0
+L+556+432+556+634+0
+
+D+1+88+150+280+#INVOICE.ADDR#
+D+1+430+150+240+#SURGERY.ADDR#
+D+1+576+270+100+#INVOICE.DATE#
+D+2+198+310+180+#INVOICE.NR#
+D+1+88+345+500+#PATIENT.SALUT#
+D+3+88+652+580+#INVOICE.DATES#
+D+1+88+958+580+#SURGERY.BANKING#+4
+D+6+92+456+50+#C1#+1
+D+6+92+486+50+#C2#+1
+D+6+92+516+50+#C3#+1
+D+6+92+546+50+#C4#+1
+D+6+92+576+50+#C5#+1
+D+6+148+456+325+#POS1#
+D+6+148+486+325+#POS2#
+D+6+148+516+325+#POS3#
+D+6+148+546+325+#POS4#
+D+6+148+576+325+#POS5#
+D+6+475+456+78+#SP1#+1
+D+6+475+486+78+#SP2#+1
+D+6+475+516+78+#SP3#+1
+D+6+475+546+78+#SP4#+1
+D+6+475+576+78+#SP5#+1
+D+6+557+456+100+#OP1#+1
+D+6+557+486+100+#OP2#+1
+D+6+557+516+100+#OP3#+1
+D+6+557+546+100+#OP4#+1
+D+6+557+576+100+#OP5#+1
+D+4+557+606+100+#INVOICE.AMOUNT#+4

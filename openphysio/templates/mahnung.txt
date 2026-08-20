@@ -1,0 +1,32 @@
+﻿# Copyright (c) 2011 Sebastian Vandersee
+
+P+744+1052
+
+F+1+Arial+11+0+0+0
+F+2+Arial+11+1+0+0
+F+3+Arial+9+0+0+0
+F+4+Arial+11+1+0+1
+
+T+2+88+310+100+Betreff:
+T+2+198+310+300+Zahlungserinnerung
+T+2+88+330+140+Rechnungsnr.:
+T+1+88+388+600+sicherlich ist es Ihrer Aufmerksamkeit entgangen, dass die o.g. Rechnung noch nicht beglichen wurde.
+T+1+88+430+600+Wir bitten Sie daher, den Betrag von
+T+1+422+430+120+bis zum
+T+1+554+430+120+auf das unten
+T+1+88+450+590+angegebene Konto zu überweisen. Wir weisen Sie vorsorglich darauf hin, dass Sie sich mit Ihrer Zahlung in Verzug befinden.
+T+1+88+492+590+Sollten Sie den Betrag inzwischen überwiesen haben, so betrachten Sie dieses Schreiben bitte als gegenstandslos.
+T+1+88+770+590+Mit freundlichen Grüßen
+
+# Faltmarkierungen
+L+4+330+20+330+1
+L+726+330+740+330+1
+
+D+1+88+130+280+#PATIENT.ADDR#
+D+1+88+365+500+#PATIENT.SALUT#
+D+1+440+130+250+#SURGERY.ADDR#
+D+1+574+270+100+#REMINDER.DATE#
+D+2+198+330+180+#INVOICE.NR#
+D+1+88+970+580+#SURGERY.BANKING#+4
+D+2+325+430+100+#REMINDER.AMOUNT#+4
+D+1+478+430+80+#REMINDER.PAYDATE#

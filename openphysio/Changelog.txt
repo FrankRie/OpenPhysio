@@ -1,0 +1,120 @@
+03.04.2011 20110403-beta
+-------------------------
+* Vorlagen-Editor
+* Verbesserte Preislisten-Importfunktion
+* Verbesserte Eingabefeld für Datum und Uhrzeit
+* Farbliche Anzeige von Hausbesuchen im Terminplaner
+* Anzeige des Patientenalters im Patientendialog
+* Möglichkeit zur Deaktivierung von Patienten
+* Terminplaner-Ansicht als Standard einstellbar
+* Zeilenhöhe im Terminplaner wird gespeichert
+* Pausen als Kategorie im Terminplaner planbar
+* Unterstützung für MKT+ Terminal ST-2052
+* Funktion zum Löschen von Rechnungen, Mahnungen und Quittungen
+* Buttons zum Löschen von Rezeptpositionen und Terminen
+* Hausarzt für Patienten hinterlegbar
+* Postleitzahlensuche im Patientendialog
+* Textbausteine für Patienten- und Termindialog
+* Datenübernahme aus vorgängerversion
+* Überarbeitete Backup- und Wiederherstellungsfunktion
+
+01.01.2011 20110101-alpha
+-------------------------
+* Unterstützung für Ergotherapie
+* Heilmittel-Check für GKV-Rezepte
+* Verbesserter Terminplaner
+  (z.B. Verschieben von Terminen, Folgetermine, Überlappungsprüfung)
+* Terminplan (Tagesansicht) druckbar
+* Standardtakt einstellbar
+* Shortcut-Funktion für GKV-Rezepte
+* Passwortdialog für Zugang zum OpenPhysio Administrator
+* Verbesserte Unterstützung für Kartenlesegeräte
+* Hinterlegung eines Stamm-Therapeuten für Patienten möglich
+* Erfassung des Autors von Berichten
+* Verbesserter Dialog für Terminvergabe
+* Überarbeitetes Hilfesystem
+* Möglichkeit zur Deaktivierung von Mitarbeitern
+* Einrichtung unterschiedlicher Drucker für verschiedene Funktionen möglich
+
+19.10.2010 20101019-alpha
+-------------------------
+* Überarbeitete GUI
+* Verbessertes Handling von Dokumentenvorlagen
+* Unterstützung für MAC OS X
+* Erfassung BSNR/LANR für Ärzte
+* Verbesserte Dialoge
+  (Farbliche Hervorhebung fehlender oder ungültiger Daten)
+* Verbesserter Rezeptdialog
+  (Erfassung spätester Behandlungsbeginn)
+* Verbesserte Kursverwaltung
+  (Automatische Sortierung von Teilnehmern)
+* Berücksichtigung der Steuernummer und Umsatzsteuer-ID
+* Importfunktion für Preislisten verbessert
+* Druck von Dokumentenvorlagen
+* Zahlreiche Bugfixes
+
+29.04.2010 20100429-alpha
+-------------------------
+Neue Features
+* Verbesserter Terminplaner
+  (z.B. Serientermine, Status von Terminen,
+   Anzeige von Telefon-Nummern bei Terminvergabe)
+* Animation beim Laden von (großen) Tabellen
+* Verbesserungen bei Kursverwaltung
+
+03.03.2010 20100303-alpha
+-------------------------
+Neue Features
+* Vollständig überarbeiteter Terminplaner
+* Backup- und Wiederherstellung für lokale Datenbankdatei
+  einschließlich Dokumentation
+* Datenübernahme zwischen OpenPhysio-Versionen
+* Viele neue Preislisten
+* Ausgabe von Patientendaten bei Test des Kartenlesegerätes
+* Konfigurationsmöglichkeit für Rechnungs- und Quittungsnummern
+
+11.10.2009 Alpha 3
+------------------
+Neue Featues
+* Optimierungen für Anzeige von Tabellen
+* Verbesserte Berücksichtung von Hausbesuchen bei Privatrezepten
+* Konfigurierbare Farbdarstellung für Tabellen (OPA)
+* Initiale Kassenfunktionalität für Einnahmen
+* Unterstützung von SCM SCR-335 Lesegeräten unter Linux
+* Offizielle MySQL-Unterstützung
+* Verbesserte Kursverwaltung
+* Neue Preislisten: RVO Rheinland-Pfalz
+
+Fixes
+* Korrektes Speichern von Privatrezepten mit mehreren Positionen
+* Vergabe von Quittungsnummern
+* Diverse Bugfixes
+
+Sonstiges
+* Quellcode-Freigabe
+* Erweiterte Dokumentation (Einrichtung MySQL, SCM-Reader)
+* Überarbeitete und zusätzliche Dokumentenvorlagen
+
+20.06.2009 Alpha 2
+------------------
+Neue Features
+* Hilfe-System integriert
+* Datenübernahme aus "Starke Praxis"
+* Neue Preislisten: RVO Bayern, RVO BaWü, RVO Bremen, Post-A, BG 
+* Rezeptunterstützung und Kostenträger-Import für BG und POST-A
+* Suche und Filter für Tabellen
+* Filter für Kassenauswahl
+* Optimierung für Sortierung von Tabellen
+* Hotkeys konfigurierbar gestaltet
+* Verbesserte Tastaturunterstützung für OPA
+* Anzeige des Mandanten in der Titelzeile des Hauptfensters
+
+Fixes
+* Berichtigung der Zuzahlungsberechnung
+* Status der Versichertenkarte ergänzt
+* Speichern von Preistabellen für Privatrezepte
+
+
+30.05.2009 Alpha 1
+------------------
+Initiales öffentliches Release

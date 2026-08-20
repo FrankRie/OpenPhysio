@@ -1,0 +1,26 @@
+﻿# Copyright (c) 2011 Sebastian Vandersee
+
+P+744+1052
+
+F+1+Arial+11+0+0+0
+F+2+Arial+12+1+0+1
+F+3+Arial+11+1+0+0
+
+T+2+88+100+300+Zuzahlungsquittung
+T+1+88+138+50+von
+T+1+88+164+300+haben wir für die ärztliche Verordnung vom
+T+1+88+188+550+die nach §32 SGB V gesetzlich vorgeschriebene Zuzahlung für Heilmittel erhalten.
+T+1+96+218+200+Verordnungsgebühr €
+T+1+96+242+200+Anteilige Zuzahlung €
+T+1+170+270+100+Gesamt €
+#T+1+400+420+200+Stempel/Unterschrift
+
+L+220+270+300+270+0
+#L+350+420+600+420+0
+ 
+D+3+118+138+610+#PATIENT.FULLNAME#
+D+1+367+164+100+#QUITTANCE.DATE#
+D+1+240+218+60+#QUITTANCE.PAY1#+2
+D+1+240+242+60+#QUITTANCE.PAY2#+2
+D+1+240+270+60+#QUITTANCE.AMOUNT#+2
+D+1+370+250+300+#SURGERY.ADDR#

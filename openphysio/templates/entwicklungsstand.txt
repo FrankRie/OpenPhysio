@@ -1,0 +1,48 @@
+﻿# Copyright (c) 2011 Sebastian Vandersee
+
+P+744+1052
+
+F+1+Arial+11+0+0+0
+F+2+Arial+12+1+0+1
+F+3+Arial+8+0+0+0
+F+4+Arial+9+0+0+0
+F+5+Arial+10+1+0+0
+
+T+2+88+88+340+Bericht zum Entwicklungsstand
+T+4+430+990+200+Stempel und Unterschrift
+T+3+382+150+270+Name des Patienten
+T+3+382+188+270+Datum
+
+L+380+152+655+152
+L+380+190+655+190
+L+380+990+670+990
+
+L+88+248+700+248
+L+88+348+700+348
+L+88+448+700+448
+L+88+548+700+548
+L+88+648+700+648
+L+88+748+700+748
+L+88+848+700+848
+L+88+248+88+848
+L+700+248+700+848
+
+T+5+88+250+610+Haltung/Aufrichtungsentwicklung:
+T+5+88+350+610+Atmung/Sprechentwicklung/Nahrungsaufnahme:
+T+5+88+450+610+Sehentwicklung/Hörentwicklung:
+T+5+88+550+610+Stütz-/Greifmotorik:
+T+5+88+650+610+Emotionale/Sensomotorische Entwicklung:
+T+5+88+750+610+Psychische/Geistige Entwicklung:
+T+5+88+850+610+Weitere Bemerkungen:
+
+D+1+88+120+250+#PHYSICIAN.ADDR#
+D+1+380+130+270+#PATIENT.FULLNAME#
+D+1+380+168+100+#REPORT.DATE#
+D+1+500+880+170+#SURGERY.ADDR#+2
+D+4+90+270+608+#REPORT.CONTENT1#
+D+4+90+370+608+#REPORT.CONTENT2#
+D+4+90+470+608+#REPORT.CONTENT3#
+D+4+90+570+608+#REPORT.CONTENT4#
+D+4+90+670+608+#REPORT.CONTENT5#
+D+4+90+770+608+#REPORT.CONTENT6#
+D+4+90+870+290+#REPORT.CONTENT7#
