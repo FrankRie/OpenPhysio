@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>favicon.png</file>
+        <file>cancel.png</file>
+        <file>down.png</file>
+        <file>folder.png</file>
+        <file>minus.png</file>
+        <file>plus.png</file>
+        <file>rename.png</file>
+        <file>save.png</file>
+        <file>splash.png</file>
+        <file>up.png</file>
+        <file>info.png</file>
+        <file>help.png</file>
+        <file>template.png</file>
+        <file>viewlist.png</file>
+        <file>chip_32x32.png</file>
+        <file>exit.png</file>
+        <file>database.png</file>
+    </qresource>
+</RCC>
